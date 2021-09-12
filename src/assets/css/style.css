@@ -1,0 +1,59 @@
+main {
+  /*background: -webkit-linear-gradient(top, #ffffff, #aaaaaa);*/
+  background: url("../images/background.jpg") no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  border-bottom: solid rgb(201, 231, 252);
+  border-bottom-width: thin;
+}
+
+/* NAVBAR */
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: rgb(68, 136, 182);
+  font-weight: 600;
+}
+
+.navbar-brand {
+  padding-left: 5%;
+  padding-right: 10%;
+}
+
+.navbar-light .navbar-brand {
+  padding-right: 250px;
+  color: #193747;
+}
+
+.nav-item {
+  padding-right: 30px;
+}
+
+/* MAIN */
+.title {
+  color: #193747;
+}
+
+.subtitle {
+  color: #544136;
+}
+
+/* CARDS */
+.card {
+  border: none;
+  background: transparent;
+}
+
+.card-body:nth-child(1) {
+  margin-left: 50px;
+}
+
+.card-body {
+  margin-right: 50px;
+  background: #ffffff;
+  box-shadow: 5px 5px 20px rgb(150, 150, 150);
+  padding: 30px;
+}
